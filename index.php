@@ -6,22 +6,17 @@ $pics_list = glob("photowall/*");
 $length_list = count($pics_list);
 // Get random image
 $random_nr = rand(0, $length_list-1);
-// show random img or not
-if (!isset($img_nr)) {
-	$image = $pics_list[$random_nr];
-	$img_nr = $random_nr;
-} else {
-	$image = $pics_list[$img_nr];
-	$fasthop = 1;
-}
+$image = $pics_list[$random_nr];
+$img_nr = $random_nr;
 $shortname =  str_replace("photowall/","",$image);
+// Shortest $interval = 5 seconds. Default is 10
 if (isset($interval)) {
         if ($interval < 5) {
                 echo "<html><head><title>Error</title>";
                 echo "<meta http-equiv=\"refresh\" content=\"5;URL='index.php?interval=5'\">";
-		echo "</head><body bgcolor=\"black\" text=\"red\">";
-		echo "<font size=\"1\" face=\"arial\">Interval value too small! Refreshing in 5 seconds..</font></body>";
-	        exit;
+                echo "</head><body bgcolor=\"black\" text=\"red\">";
+                echo "<font size=\"1\" face=\"arial\">Interval value too small! Refreshing in 5 seconds..</font></body>";
+                exit;
         }
         ?> <meta http-equiv="refresh" content="<?php echo $interval; ?>;URL='index.php?interval=<?php echo $interval; ?>'"> <?php
 } else {
