@@ -28,8 +28,5 @@ I suggest using one of the Pi's on your local network running this webserver; fo
 
 Put your collection of pictures in the folder 'photowall' and the PHP script + jquery.min.js file in the main folder. (in this example /var/www/frame/ is my local webserver's DocumentRoot)
 
-Then fire up your browser to point it at your webserver + F-11!
+Then fire up your browser(s) to point it at your webserver + F-11!
 
-**Addons** 
-
-I will add some extra scripts for managing the picture collection later.
