@@ -30,5 +30,5 @@ Put your collection of pictures in the folder 'photowall' and the PHP script + j
 
 Then fire up your browser(s) to point it at your webserver + F-11!
 
-When cloning this repo, you'll only need the index.php and jquery.min.js file. The 'photowall' folder conatains some example pictures, for demonstration. 
+When cloning this repo, you'll only need the index.php and jquery.min.js file. The 'photowall' folder contains some example pictures, just for demonstration. 
 
