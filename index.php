@@ -78,6 +78,6 @@ $(document).ready(function() {
 </head>
 <body bgcolor="black" text="white" class="FadeInEnUit">
 <script src="jquery.min.js"></script>
-<img id="the_pic" class="center fit FadeInEnUit" src="<?php echo $image; ?>" border="0">
+<img id="the_pic" class="center fit FadeInEnUit" src="<?php echo $image; ?>" border="0" style="image-orientation:from-image;">
 </body>
 </html>
