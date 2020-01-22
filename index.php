@@ -78,6 +78,7 @@ $(document).ready(function() {
 </head>
 <body bgcolor="black" text="white" class="FadeInEnUit">
 <script src="jquery.min.js"></script>
+<!-- Remove the FadeInEnUit style below, if your raspberry-pi gets too hot during usage! (flashing temp meter icon)... :-) -->  
 <img id="the_pic" class="center fit FadeInEnUit" src="<?php echo $image; ?>" border="0" style="image-orientation:from-image;">
 </body>
 </html>
