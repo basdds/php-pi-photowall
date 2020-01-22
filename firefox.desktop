@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Firefoxfull
+Comment=Firefox full screen
+Icon=firefox
+Exec=/home/pi/firefoxfull.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-Delay=30
+
+# place this file in /home/pi/.config/autostart/firefox.desktop for auto-starting of firefox on pi-boot.  
