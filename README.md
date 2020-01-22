@@ -3,17 +3,7 @@ A simple PHP script, for displaying randomly-chosen pictures on my 6 PiWall node
 
 **About this Script** 
 
-A few years ago, I've built a 3*2 'PiWall'; A grid of 6 old 19' Monitors, each having a Raspberry Pi behind it. This PiWall is capable of running the http://www.piwall.co.uk/ video streaming software. See this video for what this 'piwall' can do. 
-
-https://www.youtube.com/watch?v=Kru--U1kRy8 
-
-And how it was built, using some wood for a supporting frame :-) 
-
-https://www.facebook.com/bas.dds.nl/media_set?set=a.1429959373697741.1073741893.100000510777171&type=1&l=a61e0e0002
-
-The video streaming is fun! However.. All Pi's also have a full desktop with a web browser. Each Pi-Screen is running the Ubuntu-Mate distro.
-
-I was looking for a easy way to show a collection of (20k) pictures ramdomly on each screen, so I've made this PHP script.
+See: [This blogpost](https://bas.rel.nl/2020/01/21/Raspberry-Pi-Photowall.html)
 
 **Usage** 
 
