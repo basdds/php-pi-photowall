@@ -14,7 +14,7 @@ On any PHP capable webserver; download the repo in the documentroot of your webs
 /var/www/frame/photowall
 ```
 
-I suggest using one of the Pi's on your local network, for running this webserver. For fast **local** content delivery. (I use Nginx + php-fpm on #wall1)
+I suggest using one of the Pi's on your local network for running this webserver. For fast **local** content delivery. (I use Nginx + php-fpm on #wall1)
 
 Put your collection of pictures in the folder 'photowall' and the PHP script + jquery.min.js file in the main folder. (in this example /var/www/frame/ is my local webserver's DocumentRoot)
 
