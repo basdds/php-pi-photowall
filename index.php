@@ -5,7 +5,7 @@ $pics_list = glob("photowall/*");
 //  Calculate length
 $length_list = count($pics_list);
 // Get random image
-$random_nr = rand(0, $length_list-1);
+$random_nr = mt_rand(0, $length_list-1);
 $image = $pics_list[$random_nr];
 $img_nr = $random_nr;
 $shortname =  str_replace("photowall/","",$image);
